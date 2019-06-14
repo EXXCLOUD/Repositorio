@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.excloud" name="[COLOR lime]EX-CLOUD repo[/COLOR] Repo" version="1.2" provider-name="EX-CLOUD">
     <extension point="xbmc.addon.repository" name="EX-CLOUD">
-        <info>https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/</datadir>
+        <info>https://raw.githubusercontent.com/EXXCLOUD/Repositorio/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/EXXCLOUD/Repositorio/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/EXXCLOUD/Repositorio/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio EX-CLOUD</summary>
