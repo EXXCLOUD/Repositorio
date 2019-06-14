@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.excloud" name="[COLOR red]EX[/COLOR]-[COLOR grey]CLOUD[/COLOR]" version="1.2" provider-name="EX-CLOUD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="EX-CLOUD">
+        <info>https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/EXXCLOUD/repo/master/Repositorio/</datadir>
+  </extension>
+
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EX-CLOUD [COLOR Red]WIZARD[/COLOR]</summary>
+    <description lang="en">Entretenimiento por la NUBE, E.X.CLOUD.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
